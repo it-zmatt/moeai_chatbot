@@ -1,0 +1,6 @@
+stack-explained.md
+checklist.md
+
+# API virtualenv (local)
+apps/api/.venv/
+apps/api/.env

@@ -1,0 +1,33 @@
+# Core framework
+fastapi
+uvicorn[standard]
+
+# Database
+asyncpg
+sqlalchemy[asyncio]
+alembic
+
+# Auth & security
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+
+# Configuration & environment
+pydantic-settings
+
+# HTTP client (also used as FastAPI test client)
+httpx
+
+# AI providers
+openai
+anthropic
+
+# Rate limiting
+slowapi
+
+# Dev & testing only
+pytest
+pytest-asyncio
+black
+ruff
+python-dotenv
